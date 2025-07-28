@@ -10,7 +10,6 @@ A comprehensive machine learning project for predicting customer churn in teleco
 - [Installation](#installation)
 - [Usage](#usage)
 - [Model Performance](#model-performance)
-- [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Methodology](#methodology)
 - [Results](#results)
@@ -119,38 +118,7 @@ The project includes comprehensive EDA with:
 - True Positives: High precision in identifying churning customers
 - False Negatives: Minimized through SMOTE balancing technique
 
-## 📁 Project Structure
 
-```
-customer-churn-prediction/
-│
-├── data/
-│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│
-├── models/
-│   ├── customer_churn_model.pkl
-│   └── encoders.pkl
-│
-├── notebooks/
-│   ├── EDA.ipynb
-│   ├── model_training.ipynb
-│   └── evaluation.ipynb
-│
-├── src/
-│   ├── data_preprocessing.py
-│   ├── model_training.py
-│   ├── evaluation.py
-│   └── prediction_system.py
-│
-├── visualizations/
-│   ├── feature_distributions.png
-│   ├── correlation_heatmap.png
-│   └── model_comparison.png
-│
-├── requirements.txt
-├── README.md
-└── main.py
-```
 
 ## 🛠 Technologies Used
 
