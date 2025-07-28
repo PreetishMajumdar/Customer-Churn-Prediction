@@ -228,7 +228,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 📞 Contact
 
-Your Name - your.email@example.com
+Preetish Majumdar - preetishmajumdar@gmail.com
 
 Project Link: [https://github.com/PreetishMajumdar/Customer-Churn-Prediction](https://github.com/PreetishMajumdar/Customer-Churn-Prediction)
 
