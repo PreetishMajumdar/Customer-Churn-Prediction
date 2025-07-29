@@ -16,13 +16,13 @@ A comprehensive machine learning project for predicting customer churn in teleco
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+## Overview
 
 This project develops a machine learning pipeline to predict customer churn for telecommunications companies. The system processes customer data, handles class imbalance, trains multiple models, and provides a deployable prediction system.
 
 **Key Achievement**: Built a Random Forest model achieving high accuracy in predicting customer churn, with a complete preprocessing pipeline and deployment-ready prediction system.
 
-## ✨ Features
+## Features
 
 - **Complete ML Pipeline**: From data loading to model deployment
 - **Advanced Data Preprocessing**: Handles missing values, categorical encoding, and feature engineering
@@ -33,7 +33,7 @@ This project develops a machine learning pipeline to predict customer churn for 
 - **Model Persistence**: Serialized models and encoders for deployment
 - **Prediction System**: Ready-to-use prediction interface
 
-## 📊 Dataset
+## Dataset
 
 The project uses the **Telco Customer Churn** dataset containing:
 - **Customer demographics**: Gender, age, partner status, dependents
@@ -47,7 +47,7 @@ The project uses the **Telco Customer Churn** dataset containing:
 3. **Label Encoding**: Converts categorical variables to numerical format
 4. **Class Balancing**: Applies SMOTE to handle imbalanced target variable
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.7+
@@ -64,7 +64,7 @@ git clone https://github.com/PreetishMajumdar/Customer-Churn-Prediction.git
 cd Customer-Churn-Prediction
 ```
 
-## 💻 Usage
+## Usage
 
 ### 1. Training the Model
 ```python
@@ -100,7 +100,7 @@ The project includes comprehensive EDA with:
 - **Correlation Analysis**: Heatmaps showing feature relationships
 - **Categorical Analysis**: Count plots for categorical variables
 
-## 📈 Model Performance
+## Model Performance
 
 | Model | Cross-Validation Accuracy | Test Accuracy |
 |-------|--------------------------|---------------|
@@ -118,9 +118,7 @@ The project includes comprehensive EDA with:
 - True Positives: High precision in identifying churning customers
 - False Negatives: Minimized through SMOTE balancing technique
 
-
-
-## 🛠 Technologies Used
+## Technologies Used
 
 ### Core Libraries
 - **NumPy**: Numerical computations and array operations
@@ -135,7 +133,7 @@ The project includes comprehensive EDA with:
 ### Model Persistence
 - **Pickle**: Model and encoder serialization for deployment
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Data Preprocessing
 - **Data Cleaning**: Handle missing values and inconsistencies
@@ -158,7 +156,7 @@ The project includes comprehensive EDA with:
 - **Confusion Matrix**: Detailed breakdown of predictions
 - **Classification Report**: Precision, Recall, F1-score for each class
 
-## 📊 Results
+## Results
 
 ### Key Insights:
 1. **Feature Importance**: Contract type, tenure, and monthly charges are top predictors
@@ -172,7 +170,7 @@ The project includes comprehensive EDA with:
 - **Revenue Protection**: Reduce revenue loss through proactive interventions
 - **Customer Insights**: Understand factors driving customer satisfaction
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -190,7 +188,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Real-time prediction API
 - Web interface for predictions
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
